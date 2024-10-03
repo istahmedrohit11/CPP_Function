@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int minimum(int a,int b){
+    if(a>b){
+        return b;
+    }else if(b>a){
+        return a;
+    }else{
+        return a;
+    }
+}
+int main(){
+    int a,b;
+    cout<<"Enter two Number: ";
+    cin>>a>>b;
+    if(a=b){
+        cout<<"the numbers are same\n";
+    }
+    cout<<"Minimum number is:"<<minimum(a,b)<<"\n";
+    return 0;
+}
