@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void swapNum(int a,int b){
+    int temp=a;
+    a=b;
+    b=temp;
+    cout << "after swap: a = " << a << ", b = " << b << '\n';
+}
+int main() {
+    int a,b;
+    a=56,b=26;
+    cout << "Before swap: a = " << a << ", b = " << b << '\n';
+    swapNum(a,b);
+    return 0;
+}
